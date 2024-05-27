@@ -1,0 +1,256 @@
+.container-fluid{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    position:fixed;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+}
+#image{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    
+}
+.item {
+    width: 9em;
+    
+  }
+  .re{
+    
+    justify-content:center;
+    align-content: center;
+  }
+.custom-button{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    color: white;
+    background-color: #d0b200;
+    border-radius: 10px;
+    border:  0.5;
+    
+    
+}
+.custom-buttons{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: #d0b200;
+    border-radius: 10px;
+    border-color: transparent;
+    
+}
+.custom-buttons:focus{
+    border-color: white;
+}
+.custom-button:focus{
+    border-color: white;
+}
+.custom-outline:focus{
+    border-color: white;
+}
+.custom-outline{
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    color: #d0b200;
+    border-color:#d0b200;
+    background-color: transparent;
+    border-radius: 10px;
+    border-width:1;
+}
+#sectionWhyChooseUs{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0ffff;
+}
+.food{
+    border-radius: 10px;
+    text-align: center;
+    height:auto;
+    width:auto;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    
+}
+.offer{
+    border-radius: 10px;
+    text-align: center;
+    height:auto;
+    width:auto;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.fruits{
+    border-radius: 10px;
+    text-align: center;
+    height:auto;
+    width:auto;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.whyChooseUs{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    height:auto;
+    width:auto;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.pad{
+    padding: 20px;
+}
+.off{
+    
+    margin-left: 20px;
+}
+#sectionExploreMenu{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+}
+#sectionExploreMenuu{
+    background-color: white;
+    padding-bottom: 40px;
+   
+}
+.hi{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.hii{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 680px;
+    height: auto;
+}
+.foodItems{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px;
+}
+.foodItem{
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 20px;
+}
+#hars{
+    background-color: #f8f8ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#hh3{
+    font-weight: bold;
+    
+}
+.freshFood{
+
+    padding-left: 40px;
+}
+.del{
+    padding-right: 120px;
+}
+#deliveryMenu{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+#pay{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#pays{
+    margin-top: 25px;
+}
+#gift{
+    background-color: #fcf4e8;
+    max-width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.pp{
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+#follow{
+    text-align: center;
+    padding-top: 30px;
+   padding-bottom: 20px; 
+   margin-bottom: 40px;
+}
+.icons{
+    background-color: #fcf4e8;
+    height: 70px;
+    width: 70px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 45%;
+    padding: 15px;
+    color: #d0b200;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.icon{
+    background-color: #fcf4e8;
+    height:70px;
+    width: 70px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 30px;
+    color: #d0b200;
+}
+.details{
+    background-color:#0d2436;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.center{
+    text-align: center;
+}
+.ppp{
+    padding: 0;
+    color: #f5fffa;
+}
+.photo{
+    height: 100px;
+    width: 100px;
+    padding-bottom: 10px;
+  
+}
+#deliveryMen{
+    padding-bottom: 30px;
+}
+.nnn{
+   margin-bottom: 30px;
+} 
